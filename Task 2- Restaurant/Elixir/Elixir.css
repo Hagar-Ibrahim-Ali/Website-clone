@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Great+Vibes&family=Open+Sans&family=Oswald:wght@200;300&family=Yellowtail&display=swap');/* font-family: 'Cabin', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Oswald', sans-serif; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Cabin', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV */
+#navigation{
+    background-color: rgba(0, 0, 0, 0.638);
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 97px;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    width: 100%;
+}
+
+.nav .nav-logo{
+    width: 30%;
+}
+
+.nav .nav-links{
+    color: white;
+    margin: auto 97px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color: #c0a756;
+
+}
+.nav-links li:hover{
+    color: #c0a756;
+}
+
+
+
+
+/* HOME */
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 93px;
+    font-weight: bold;
+}
+
+#home{
+background-image: url(03.jpg);
+display: flex;
+background-size: cover;
+height: 100%;
+align-items: center;
+justify-content: center;
+
+}
+.home-contant{
+
+    text-align: center;
+}
+
+.homelogo{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.homeinfo{
+    color: white;
+    text-align: center;
+}
+
+.homeinfo h1{
+    font-size: 60;
+    letter-spacing: 7px;
+}
+.homeinfo p{
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: x-large;
+
+}
+.margin-top-bottom{
+    margin: 30px;
+}
+
+/* about */
+#about-sec{
+    margin: 60px;
+    text-align: center;
+
+}
+
+#txt{
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about-txt{
+    font-family: 'Cabin', sans-serif;
+    font-style: italic;
+    margin: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 24px;
+}
+
+.history{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 50px;
+    }    
+    .history-txt{
+        padding-right: 140px;
+    }
+    .the-history{
+        text-align: center;
+        margin-bottom: 40px;
+        font-family: "Great Vibes", serif;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 89px;
+        color: #c0a756;
+    }
+    .history-p{
+        text-align: left;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        color: #777777;
+        line-height: 32px;
+        font-size: 17px;
+    }
+.txt1{
+margin-bottom: 30px;
+}
+.p1-span{
+    color: #c0a756;
+    font-weight: bold;
+}
+.p2-span{    
+    color: #c0a756;
+    font-weight: bold;
+}
+.history-img{
+    margin-right: 50px;
+}
+
+
+.end-img{
+    margin-top: 40px;
+}
+/* opening hours */
+
+#opening-hours{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+background-image: url(opening_hours.jpg);
+}
+
+.openinghour-title{
+    display: flex;
+    justify-content:center;
+    
+}
+
+#txt-time{
+    font-family:'Oswald', sans-serif;
+    font-size: 39px;
+    font-weight: bolder;
+    line-height: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.openhour-subtitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(178, 152, 89);
+
+}
+
+.openh-timetable{
+    display: flex;
+    justify-content: center;
+
+}
+.opendays{
+    font-family: 'Yellowtail', cursive;
+    font-style: italic;
+    color: rgb(178, 152, 89);
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 48px;
+    margin-top: 50px;
+}
+.opentime{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.openh-divider{
+    margin: 30px 70px ;
+}
+.res-number{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* MENU SECTON */
+#Menu{
+    height: 100%;
+    width: 100%;
+    background-image: url(menu_left.jpg), url(menu_right.jpg);
+    background-repeat: no-repeat;
+    background-position: top left, top right;
+    background-size: contain;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+.menu-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.menu-section{
+    width: 370px;
+}
+.menu-plate{
+    width: 100%;
+}
+.menu-cetegory{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(136, 112, 37);
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.dish-name{
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dish-details{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.dish-details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+}
+.dish-details span{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    color: rgb(191, 167, 96);
+    font-style: italic;
+    font-weight: bold;
+}
+.btn{
+
+    border: 2px solid #c0a756;
+    background-color: white;
+    color: #c0a756;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+    /* margin-top: 20px; */
+}
+
+.menu-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn:hover{
+    background-color: #c0a756;
+    color: white;
+}
+
+#footer{
+    height: 25vh;
+    background-color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.icons img{
+    width: 70px
+}

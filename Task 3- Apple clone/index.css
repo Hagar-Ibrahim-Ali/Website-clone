@@ -1,0 +1,206 @@
+#body{
+    background-color: rgb(15, 15, 42);
+}
+
+/* NAV BAR */
+.navbar{
+    background-color: rgba(24, 32, 54, 0.575);
+    
+}
+
+.container-fluid a{
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+/* what's new */
+
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.whatsnew{
+    display: flex;
+    justify-content: center;
+
+}
+.whatsnew-txt{
+    color: white;
+    margin-top: 70px;
+}
+.whatsnew-txt h2{
+    font-size: 32px;
+    
+}
+.whatsnew-txt h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.whatsnew-txt h4{
+    font-size: 24px;
+}
+ /* first cards */
+#product{
+    margin-top: -190px; 
+}
+.row{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card{
+    padding: 10px;
+    height: 100%;
+    
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    padding: 30px;
+    
+}
+.card-body h5{
+    margin-top: 20px;
+}
+.card-body h5:hover{
+    color: rgb(48, 48, 213);
+}
+
+.card-body img{
+    width: 40%;
+}
+.card-body span{
+    color: rgb(178, 63, 2);
+    font-size: 12px;
+}
+/* iphone14 colors */
+
+.colors-14{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.color-14{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.color-14:nth-child(1){
+    background-color: rgb(150, 163, 163);
+}
+.color-14:nth-child(2){
+    background-color: rgb(231, 199, 192);
+}
+.color-14:nth-child(3){
+    background-color: black;
+}
+.color-14:nth-child(4){
+    background-color: antiquewhite;
+}
+.color-14:nth-child(5){
+    background-color: red;
+}
+/* iphone 14 colors emd */
+/* watch colors */
+.colors-w{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.color-w{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.color-w:nth-child(1){
+    background-color: rgb(249, 234, 216);
+}
+.color-w:nth-child(2){
+    background-color: rgb(57, 50, 40);
+}
+
+.color-w:nth-child(3){
+    background-color: rgb(180, 180, 180);
+}
+/* end watch colors */
+
+.background-sec{
+    background-color: #f5f0ff;
+}
+.card-body2{
+    color: rgb(87, 67, 106);
+    padding: 30px;
+}
+.card-body2 h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.card-body2 p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.background-thr{
+    background-color:#524570;
+}
+.card-body3{
+    color: #f5f0ff;
+    margin: 35px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.card-body3 h1{
+    font-size: 48px;
+}
+.card-body3 p{
+    font-size: 22px;
+}
+.card-body4{
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+
+.card-body4 img{
+    width: 779px;
+    height: 319px;
+    position: absolute;
+    left: -130px;
+    margin-top: 100px;
+}
+.card-body4 h1{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.card-body4 p{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.background-for{
+    background-color: #3b4582 ;
+}
+
+
+/* first cards end */
+
+
+/* #f5f0ff */
+/* #3b4582 */
